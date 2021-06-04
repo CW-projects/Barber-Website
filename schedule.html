@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - CW Cuts</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/menu.css">
+</head>
+<body>
+
+    <div class="background-container">
+        <!-- CSS Popup Menu -->
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="schedule.html">Schedule</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Reviews</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- Scheduling Page/ Form -->
+        <header class="sched-header">
+            <h1>Schedule Your Cut</h1>
+        </header>
+
+
+        <section class="sched-form">
+            <div id="form-container">
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="John Doe" id="name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="" placeholder="JohnDoe@gmail.com" id='email'>
+
+                    <label for="date">Date and Time:</label>
+                    <input type="datetime-local">
+
+                    <label for="description">Description of your desired haircut:</label>
+                    <br>
+                    <textarea name="" id="description" cols="100" rows="7" placeholder="Buzz cut."></textarea>
+                    <br>
+                    <button id="submit">Submit</button>
+                </form>
+            </div>
+        </section>        
+    </div>
+ 
+</body>
+</html>
